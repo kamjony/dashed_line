@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: const [
                     Text('Default vertical dash'),
                     SizedBox(height: 10),
-                    DashedLine(height: 100, width: 0, axis: Axis.vertical)
+                    DottedDashedLine(height: 100, width: 0, axis: Axis.vertical)
                   ],
                 ),
                 const Spacer(),
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: const [
                     Text('Default horizontal dash'),
                     SizedBox(height: 10),
-                    DashedLine(height: 0, width: 100, axis: Axis.horizontal)
+                    DottedDashedLine(height: 0, width: 100, axis: Axis.horizontal)
                   ],
                 ),
               ],
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 30),
             const Text('Horizontal Dash with red color'),
             const SizedBox(height: 10),
-            const DashedLine(
+            const DottedDashedLine(
               height: 0,
               width: 100,
               axis: Axis.horizontal,
@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 30),
             const Text('Horizontal Dash with 4 stroke width'),
             const SizedBox(height: 10),
-            const DashedLine(
+            const DottedDashedLine(
               height: 0,
               width: 100,
               axis: Axis.horizontal,
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 30),
             const Text('Horizontal Dash with more dash space'),
             const SizedBox(height: 10),
-            const DashedLine(
+            const DottedDashedLine(
               height: 0,
               width: 100,
               axis: Axis.horizontal,
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 30),
             const Text('Horizontal Dash with more dash width'),
             const SizedBox(height: 10),
-            const DashedLine(
+            const DottedDashedLine(
                 height: 0,
                 width: 100,
                 axis: Axis.horizontal,
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 30),
             const Text('Vertical dash with more dash height'),
             const SizedBox(height: 10),
-            const DashedLine(
+            const DottedDashedLine(
               height: 100,
               width: 0,
               axis: Axis.vertical,

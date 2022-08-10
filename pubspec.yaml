@@ -1,6 +1,6 @@
 name: dotted_dashed_line
 description: This package allows you to draw a horizontal or vertical dashed lines in any Flutter Platform.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/kamjony/dotted_dashed_line.git
 repository: https://github.com/kamjony/dotted_dashed_line.git
 

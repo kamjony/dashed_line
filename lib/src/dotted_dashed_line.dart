@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dotted_dashed_line/src/dashed_line_painter.dart';
 
-class DashedLine extends StatelessWidget {
+class DottedDashedLine extends StatelessWidget {
   ///The height of the widget. Should be greater than 0 only for Axis.vertical.
   final double height;
 
@@ -32,7 +32,7 @@ class DashedLine extends StatelessWidget {
 
   ///Create a dashed line with given parameters.
 
-  const DashedLine(
+  const DottedDashedLine(
       {Key? key,
       required this.height,
       required this.width,
